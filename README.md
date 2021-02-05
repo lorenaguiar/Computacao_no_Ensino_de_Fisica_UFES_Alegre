@@ -44,7 +44,7 @@ Ferramentas computacionais para o ensino e aprendizagem de Física, dentre elas 
 
 **A parte (RC) de CEF será avaliada via 7 trabalhos (3 individuais e 4 em grupo), dos quais 3 com apresentação ao vivo na aula remota** :
 
-1. **trabalhos sobre Python 3** :  	
+1. **trabalhos sobre Python 3** :   
    1.1. (individual) trabalho com cálculos de propagação de incerteza p/ análise de dados experimentais/observacionais, usando Python Uncertainties;  
    1.2. (individual) trabalho com gráficos em Python 3 com MatPlotLib / Bokeh / Holoviews / Seaborn / Plotly / etc;  
    1.3 (em grupo) trabalho com gráficos interativos e publicáveis em páginas web, usando Python 3/Bokeh / Holoviews / Seaborn / Plotly / etc, com apresentação em aula remota (19/03/2021);  
