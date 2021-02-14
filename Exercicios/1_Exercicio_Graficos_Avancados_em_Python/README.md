@@ -21,6 +21,6 @@ Crie então um documento Jupyter Notebook com :
 - cada exemplo com nome, link p/ onde foi encontrado, breve descrição cópia do gráfico (com imagem embutida no Jupyter Notebook, basta colar a figura da área de transferência para uma célula Markdown). Não precisa exibir o código-fonte do exemplo, nemcalcular o gráfico via execução do código-fonte;
 - uma última seção "Melhor gráfico", com texto seu listando qual dos exemplos você mais gostou.
 
-Enviar ao professor arquivo ("Exercicio_CEF-RC_GraficosAvancadosPython_<NOME>_<DATA>.ipynb) (ou .md, formato Markdown),, e arquivo da versão exportada .html respectiva. (onde <NOME> é o nome do aluno, sem espaços, mas pode usar '_', e <DATA> é data, sem espaços, p. e., 2021-02-19) :
+Enviar ao professor arquivo ("Exercicio_CEF-RC_GraficosAvancadosPython_<NOME>_<DATA>.ipynb) (ou .md, formato Markdown), e arquivo da versão exportada .html respectiva. (onde <NOME> é o nome do aluno, sem espaços, mas pode usar '_', e <DATA> é data, sem espaços, p. e., 2021-02-19) :
 - via atividade no Google ClassRoom de CEF-RC;
 - via repositório privado no GitHub do aluno, criado com nome "CEF_Atividades", adicionando o professor ("rcolistete") como colaborador, dentro do repositório crie diretório "Exercicio_GraficosAvancadosPython" e coloque os arquivos .ipynb/.md e .html.
