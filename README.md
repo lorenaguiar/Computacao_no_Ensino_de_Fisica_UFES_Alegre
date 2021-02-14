@@ -60,14 +60,14 @@ Ferramentas computacionais para o ensino e aprendizagem de Física, dentre elas:
 
 **Exercícios também valerão nota, porém extra**, além da nota (0-10) parcial de CEF-RC, **adicionando até 1 ponto na média parcial**. Tais exercícios podem ser assíncronos ou síncronos, sendo mais simples que trabalhos. **A média dos exercícios, MEx, vale 0-10**.
 
-**Prêmios** : o melhor trabalho (escolhido pelo professor via critérios de qualidade, estética, etc) dentre os 1.3, 1.4 e 2.3 ganhará 0,5 cada um na média parcial de CEF-RC. A soma das notas dos prêmios de trabalho, **NPT**, é ceifada em 1,0.
+**Prêmios** : **o trabalho de destaque** escolhido pelo professor via critérios de qualidade, estética, etc, **dentre os 1.3, 1.4 e 2.3 ganhará 0,5 cada um a mais na média parcial de CEF-RC**. A soma das notas dos prêmios de trabalho, **NPT**, é ceifada em 1,0.
 
 Alguns exercícios e trabalhos poderão ter a possibilidade dos alunos fazerem correção da correção (minha), ganhando nota para melhorar a resolução após eu corrigir pela 1a vez e fazer observações de melhorias possíveis.
 
 **Média parcial (MP) de CEF-RC** :  
 MP = (0,13 * T1.1 + 0,20 * T1.2 + 0,20 * T1.3 + 0,17 * T1.4 + 0.08 * T2.1 + 0.12 * T2.2 + 0.10 * T2.3) + NPT + (0,1 * MEx)
 
-Caso a MP ultrapasse 10,0 então será ceifada nesse valor.
+Ou seja, a nota poderia ir até 12,0 por causa de exercícios (até 1 ponto a mais) e prêmios (até 1 ponto a mais) somarem além da média ponderada dos trabalhos (0-10,0). Mas caso a MP ultrapasse 10,0 então será ceifada nesse valor.
 
 ## Cronograma (RC)
 
