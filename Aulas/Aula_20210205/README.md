@@ -3,10 +3,10 @@
 ## 05/02/2021
 
 Tópicos dados :
-1. Apresentação de CEF-RC, com :
-	1.1. Google Classroom/Sala de Aula de CEF-RC;
-	1.2. Google Drive de CEF-RC;
-	1.3. Repositório GitHub público de CEF-RC;
+1. Apresentação de CEF-RC, com :  
+	1.1. Google Classroom/Sala de Aula de CEF-RC;  
+	1.2. Google Drive de CEF-RC;  
+	1.3. Repositório GitHub público de CEF-RC;  
 	1.4. Apresentação do plano de ensino disponível no repositório GitHub de CEF-RC, com ementa, objetivos, conteúdo programático, avaliações e cronograma;
 5. Indicação para fazer dowload e instalar Anaconda, software/distribuição Python;
 6. Apresentação de Google Colab (abreviação de Colaboratory), com prática de alguns comandos simples, usando CPU e GPU.
