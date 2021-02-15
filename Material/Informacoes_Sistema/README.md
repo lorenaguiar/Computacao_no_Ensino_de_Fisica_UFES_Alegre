@@ -8,6 +8,6 @@ Em 2 versões .ipynb (visualizáveis diretamente no GitHub) :
 
 Seguem também exportação para arquivos .html (não são visualizáveis diretamente no GitHub).
 
-Caso queira visualizar via Jupyter nbviewer , clique em :
+Caso queira visualizar via Jupyter nbviewer (mais robusto, rápido e com mais opções que visualizar via GItHub), clique em :
 - ["Informacoes_Sistema.ipynb"](https://nbviewer.jupyter.org/github/rcolistete/Computacao_no_Ensino_de_Fisica_UFES_Alegre/blob/main/Material/Informacoes_Sistema/Informacoes_Sistema.ipynb);
 - ["Informacoes_Sistema_LinuxMacOS.ipynb"](https://nbviewer.jupyter.org/github/rcolistete/Computacao_no_Ensino_de_Fisica_UFES_Alegre/blob/main/Material/Informacoes_Sistema/Informacoes_Sistema_LinuxMacOS.ipynb#).
