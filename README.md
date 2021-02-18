@@ -83,4 +83,8 @@ Serão duas partes principais de conteúdo. Devido ao caráter interativo das au
    2.2. aprendizagem e uso de [LaTeX](https://www.latex-project.org/) para redação de documentos mais complexos, como artigos, monografias de TCC (Trabalho de Conclusão de Curso), etc. Contendo sumário, capítulos/seções, bibliografia, etc;   (12a aula)  
    2.3. aprendizagem e uso de [LaTeX](https://www.latex-project.org/)/[Beamer](https://ctan.org/pkg/beamer)/etc para criação de apresentações.  (13a aula)
 
+## Ferramentas de Ensino e Pesquisa
 
+Vide o r[epositório público "Ferramentas de Ensino e Pesquisa"](https://github.com/rcolistete/Ferramentas_Ensino_Pesquisa) que contém guias, tutoriais, etc, sobre várias ferramentas usadas em CEF-RC : Mardown, Anaconda, Jupyter Notebook, Google Colab, PyDroid3, etc.
+
+Tal repositório será indicado ao longo das aulas, conforme as ferramentas forem citadas.
