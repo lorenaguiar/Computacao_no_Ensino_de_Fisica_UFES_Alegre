@@ -3,13 +3,13 @@
 
 #### Semestre 2020-2 EARTE (01/02/2021 a 15/05/2021)
 
-**Professores : João Paulo Casaro Erthal (JP), Roberto Colistete Jr. (RC)**
+**Professores : JP, Roberto Colistete Jr. (RC)**
 
 [DQF (Departamento de Química e Física)](http://alegre.ufes.br/ccens/departamento-de-quimica-e-fisica)
 
 CCENS (Centro de Ciências Exatas, Naturais e da Saúde) - [UFES Alegre](http://alegre.ufes.br/)
 
-**Esse repositório só tem o conteúdo da parte de CEF-RC (atribuída ao prof. Roberto Colistete Jr.)**, com aulas remotas na 6a-feira 18h-20h.
+**Esse repositório só tem o conteúdo da parte de CEF-RC (atribuída ao prof. Roberto Colistete Jr.)**, com aulas remotas na 2a-feira 22h-23h e 4a-feira 22h-23h (era 6a-feira 18h-20h até 26/02/2021).
 
 ## Ementa
 
@@ -65,7 +65,7 @@ Ferramentas computacionais para o ensino e aprendizagem de Física, dentre elas:
 Alguns exercícios e trabalhos poderão ter a possibilidade dos alunos fazerem correção da correção (minha), ganhando nota para melhorar a resolução após eu corrigir pela 1a vez e fazer observações de melhorias possíveis.
 
 **Média parcial (MP) de CEF-RC** :  
-MP = (0,13 * T1.1 + 0,20 * T1.2 + 0,20 * T1.3 + 0,17 * T1.4 + 0.08 * T2.1 + 0.12 * T2.2 + 0.10 * T2.3) + NPT + (0,1 * MEx)
+MP = (0,15 * T1.1 + 0,20 * T1.2 + 0,20 * T1.3 + 0,15 * T1.4 + 0.08 * T2.1 + 0.12 * T2.2 + 0.10 * T2.3) + NPT + (0,1 * MEx)
 
 Ou seja, a nota poderia ir até 12,0 por causa de exercícios (até 1 ponto a mais) e prêmios (até 1 ponto a mais) somarem além da média ponderada dos trabalhos (0-10,0). Mas caso a MP ultrapasse 10,0 então será ceifada nesse valor.
 
@@ -75,7 +75,7 @@ Serão duas partes principais de conteúdo. Devido ao caráter interativo das au
 
 1. **Python** :  
    1.1. apresentação de ferramentas, como instalação de Anaconda, uso de [Jupyter Notebook](https://jupyter.org/), uso de [Google Colab](https://colab.research.google.com/), etc;  (1a e 2a aulas)  
-   1.2.  aprendizagem e uso de módulo [Uncertainties](https://pythonhosted.org/uncertainties/) para cálculos de propagação de incertezas, bem como do módulo [Pandas](https://pandas.pydata.org/) para manipulação e análise de dados, aplicados em dados experimentais de um experimento feito em "Física Experimental I";  (2a e 3a aulas)  
+   1.2.  aprendizagem e uso de módulo [Uncertainties](https://pythonhosted.org/uncertainties/) para cálculos de propagação de incertezas, bem como do módulo [Pandas](https://pandas.pydata.org/) para manipulação e análise de dados, aplicados em dados experimentais de um experimento feito em "Física Experimental I";  (2a a 4a aulas)  
    1.3. aprendizagem de vários módulos sobre gráficos :  [MatPlotLib](https://matplotlib.org/) / [Bokeh](https://bokeh.org/) / [Holoviews](https://holoviews.org/) / [Seaborn](https://seaborn.pydata.org/) / [Plotly](https://plotly.com/python/) / etc. Aplicação em visualização de problemas de Física, com variação de parâmetros gerando gráficos interativos, com funções de 1, 2 e 3 variáveis, curvas e superfícies de contorno, de densidade 2D e 3D, etc. Aprendizagem e prática de ferramentas para gerar gráficos publicáveis em páginas web;  (3a a 7a   aulas)  
    1.4. aprendizagem e uso de módulos  [Numba](https://numba.pydata.org/) e [CuPy](https://cupy.dev/) para aceleração via CPU/GPU, aplicando em problemas de Física que envolvam cálculos numéricos mais intensivos;  (8a e 9a aulas)
 2. **LaTeX** :  
