@@ -74,14 +74,14 @@ Ou seja, a nota poderia ir até 12,0 por causa de exercícios (até 1 ponto a ma
 Serão duas partes principais de conteúdo. Devido ao caráter interativo das aulas, a previsão de semanas de aulas para cada tópico é somente aproximada.
 
 1. **Python** :  
-   1.1. apresentação de ferramentas, como instalação de Anaconda, uso de [Jupyter Notebook](https://jupyter.org/), uso de [Google Colab](https://colab.research.google.com/), etc;  (1a e 2a aulas)  
-   1.2.  aprendizagem e uso de módulo [Uncertainties](https://pythonhosted.org/uncertainties/) para cálculos de propagação de incertezas, bem como do módulo [Pandas](https://pandas.pydata.org/) para manipulação e análise de dados, aplicados em dados experimentais de um experimento feito em "Física Experimental I";  (2a a 4a aulas)  
-   1.3. aprendizagem de vários módulos sobre gráficos :  [MatPlotLib](https://matplotlib.org/) / [Bokeh](https://bokeh.org/) / [Holoviews](https://holoviews.org/) / [Seaborn](https://seaborn.pydata.org/) / [Plotly](https://plotly.com/python/) / etc. Aplicação em visualização de problemas de Física, com variação de parâmetros gerando gráficos interativos, com funções de 1, 2 e 3 variáveis, curvas e superfícies de contorno, de densidade 2D e 3D, etc. Aprendizagem e prática de ferramentas para gerar gráficos publicáveis em páginas web;  (3a a 7a   aulas)  
-   1.4. aprendizagem e uso de módulos  [Numba](https://numba.pydata.org/) e [CuPy](https://cupy.dev/) para aceleração via CPU/GPU, aplicando em problemas de Física que envolvam cálculos numéricos mais intensivos;  (8a e 9a aulas)
+   1.1. apresentação de ferramentas, como instalação de Anaconda, uso de [Jupyter Notebook](https://jupyter.org/), uso de [Google Colab](https://colab.research.google.com/), etc;  (1a e 2a semanas de aulas)  
+   1.2.  aprendizagem e uso de módulo [Uncertainties](https://pythonhosted.org/uncertainties/) para cálculos de propagação de incertezas, bem como do módulo [Pandas](https://pandas.pydata.org/) para manipulação e análise de dados, aplicados em dados experimentais de um experimento feito em "Física Experimental I";  (2a a 5a semanas de aulas)  
+   1.3. aprendizagem de vários módulos sobre gráficos :  [MatPlotLib](https://matplotlib.org/) / [Bokeh](https://bokeh.org/) / [Holoviews](https://holoviews.org/) / [Seaborn](https://seaborn.pydata.org/) / [Plotly](https://plotly.com/python/) / etc. Aplicação em visualização de problemas de Física, com variação de parâmetros gerando gráficos interativos, com funções de 1, 2 e 3 variáveis, curvas e superfícies de contorno, de densidade 2D e 3D, etc. Aprendizagem e prática de ferramentas para gerar gráficos publicáveis em páginas web;  (3a a 7a   semanas de aulas)  
+   1.4. aprendizagem e uso de módulos  [Numba](https://numba.pydata.org/) e [CuPy](https://cupy.dev/) para aceleração via CPU/GPU, aplicando em problemas de Física que envolvam cálculos numéricos mais intensivos;  (8a e 9a semanas de aulas)
 2. **LaTeX** :  
-   2.1. aprendizagem e uso de [LaTeX](https://www.latex-project.org/) para redigir documentos simples contendo expressões matemáticas, tabelas, figuras, etc;  (11a aula)  
-   2.2. aprendizagem e uso de [LaTeX](https://www.latex-project.org/) para redação de documentos mais complexos, como artigos, monografias de TCC (Trabalho de Conclusão de Curso), etc. Contendo sumário, capítulos/seções, bibliografia, etc;   (12a aula)  
-   2.3. aprendizagem e uso de [LaTeX](https://www.latex-project.org/)/[Beamer](https://ctan.org/pkg/beamer)/etc para criação de apresentações.  (13a aula)
+   2.1. aprendizagem e uso de [LaTeX](https://www.latex-project.org/) para redigir documentos simples contendo expressões matemáticas, tabelas, figuras, etc;  (11a semana de aula)  
+   2.2. aprendizagem e uso de [LaTeX](https://www.latex-project.org/) para redação de documentos mais complexos, como artigos, monografias de TCC (Trabalho de Conclusão de Curso), etc. Contendo sumário, capítulos/seções, bibliografia, etc;   (12a semana de aula)  
+   2.3. aprendizagem e uso de [LaTeX](https://www.latex-project.org/)/[Beamer](https://ctan.org/pkg/beamer)/etc para criação de apresentações.  (13a semana de aula)
 
 ## Ferramentas de Ensino e Pesquisa
 
