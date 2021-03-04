@@ -9,7 +9,10 @@ Vide o [diretório "Informações sobre Sistema"](https://github.com/rcolistete/
 a) um dos arquivos, "Informacoes_Sistema.ipynb" (se usar Windows) ou "Informacoes_Sistema_LinuxMacOS.ipynb" (se usar Linux/Mac OS) para rodar localmente no seu computador, em instalação local do Anaconda (citado desde a 1a aula de CEF-RC). Adicione após o título/subtítulos um parágrafo resumindo a configuração do seu computador. Por exemplo :
 
     Computador de FULANO :
-    Notebook Dell XPS 15 com CPU Intel Core i7 2670QM, 2,2-3,1 GHz 4 cores/8 threads 6MB cache com GPU integrada Intel HD Graphics 3000, GPU dedicada NVidia GeForce GPU GT 540M, 2GB, 96 cores CC2.1, 8GB de RAM, HD de 1 TB. Linux Manjaro KDE 18.0 64 bits.
+    Notebook Dell XPS 15 com CPU Intel Core i7 2670QM, 2,2-3,1 GHz 4 cores/8 threads 6MB cache 
+    com GPU integrada Intel HD Graphics 3000, 
+    GPU dedicada NVidia GeForce GPU GT 540M, 2GB, 96 cores CC2.1, 8GB de RAM, HD de 1 TB.
+    Linux Manjaro KDE 18.0 64 bits.
 
 Renomeie tal arquivo para formato "Informacoes_Sistema_NOMECOMPUTADOR.ipynb", onde é NOMECOMPUTADOR o nome abreviado do seu computador (p. e., DellXPS15, se fosse o notebook acima), sem espaços, mas pode usar \'_'. Crie também versão .html via exportação;
 
