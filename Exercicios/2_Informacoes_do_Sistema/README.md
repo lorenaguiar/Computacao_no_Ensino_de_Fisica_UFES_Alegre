@@ -35,8 +35,9 @@ Vide o [diretório "Informações sobre Sistema"](https://github.com/rcolistete/
 	* Google Colab tem as versões de Python e cada módulo obtidos após rodar (b);
 
 - ao final da seção escreva comparando :
-	* hardware do seu computador e do Google Colab;
 	* quais das 3 opções da tabela têm mais módulos instalados e versões mais recentes.
+- crie outra seção comparando hardware do seu computador e do Google Colab.
+
 
 **Enviar ao professor** o arquivo "Exercicio_CEF-RC_InformacoesSistema_NOME_DATA.ipynb" e o arquivo da versão exportada .html respectiva, juntamente com os arquivos criados em (a) e (b) :
 - dentro de arquivo compactado .zip de um diretório "Exercicio_CEF-RC_InformacoesSistema_NOME_DATA" (contendo os arquivos), **via essa atividade**;
