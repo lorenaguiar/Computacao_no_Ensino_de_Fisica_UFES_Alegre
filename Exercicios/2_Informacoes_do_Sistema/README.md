@@ -1,6 +1,6 @@
 # Exercício sobre informações de sistema de computador e Google Colab
 
-**Entrega até 23h59 de 09/03/2021**.
+**Entrega até 23h59 de 11/03/2021**.
 
 **Exercício individual para ser feito em Jupyter Notebook local e rodando em Google Colab.**
 
@@ -16,7 +16,7 @@ Vide o [diretório "Informações sobre Sistema"](https://github.com/rcolistete/
 
 **Renomeie tal arquivo para formato "Informacoes_Sistema_NOMECOMPUTADOR.ipynb"**, onde é NOMECOMPUTADOR o nome abreviado do seu computador (p. e., DellXPS15, se fosse o notebook acima), sem espaços, mas pode usar \'_'. **Crie também versão .html via exportação**;
 
-**b) "Informacoes_Sistema_LinuxMacOS.ipynb" para rodar no Google Colab. Renomeie tal arquivo para "Informacoes_Sistema_GoogleColab.ipynb". Crie também versão .html via exportação.**
+**b) "Informacoes_Sistema_LinuxMacOS.ipynb" para rodar no Google Colab, com GPU ativada** (no Google Colab, clique no meu "Ambiente de execução", depois em "Alterar o tipo do ambiente de execução", depois no campo "Acelerador de hardware" mude de "None" para "GPU" ). Renomeie tal arquivo para "Informacoes_Sistema_GoogleColab.ipynb". Crie também versão .html via exportação.
 
 **Crie então um documento Jupyter Notebook com nome "Exercicio_CEF-RC_InformacoesSistema_NOME_DATA.ipynb"** (onde NOME é o nome do aluno, sem espaços, mas pode usar '\_', e DATA é data, sem espaços, p. e., 2021-03-09) com :
 
