@@ -1,0 +1,832 @@
+%Apresentação de até 30 min. 
+%Não fazer mais de 20 slides;
+\documentclass{beamer}
+%\documentclass[trans]{beamer}
+
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage[all]{xy}
+\usepackage{default}
+\usepackage{xcolor}
+
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+%\usepackage{beamerthemesplit}
+\setbeamertemplate{navigation symbols}{}
+
+
+\usepackage[portuges]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+%\usepackage{t1enc}
+%\usepackage{aeguill}
+
+%%Temas do beamer - escolha só um.
+%\usetheme{Copenhagen}
+%\usetheme{Dresden}
+%\usetheme{Hannover}
+%\usetheme{Luebeck}
+%\usetheme{AnnArbor}
+%\usetheme{Berkeley}
+%\usetheme{Darmstadt}
+\usetheme{Frankfurt}
+%\usetheme{Ilmenau}
+%\usetheme{Madrid}%azulito-li;la
+%\usetheme{Warsaw}%int
+%\usetheme{Antibes}
+%\usetheme{Berlin}
+%\usetheme{CambridgeUS}%rojo-gris
+%\usetheme{Malmoe}
+%\usetheme{PaloAlto}
+
+%Comandos para definir o logo.
+%\pgfdeclareimage[height=1.0cm]{logo}{Tux_UFES}
+%\logo{\pgfuseimage{logo}}
+
+%Define cores novas
+\definecolor{orange}{rgb}{1,0.5,0}
+\definecolor{castanho}{rgb}{127,0,0}
+
+\title{Cosmologia para Iniciantes\\{\small I Semana de Física do CCA}}
+
+\author{prof. Ramón Giostri Campos}
+
+
+\date{\begin{scriptsize}2014\\DQF - CCA - UFES \end{scriptsize}}
+
+%Transparencia nos overlays do beamer
+\setbeamercovered{transparent}
+%\setbeamercovered{dynamic}
+
+
+\begin{document}
+
+\frame{\titlepage}
+
+\section{Que é Cosmologia?}
+
+\subsection{resumo}
+\frame{
+\frametitle{Resumo da Apresentação}
+\vspace{-0.4cm}
+\begin{itemize}
+\item Qual o significado de Cosmologia?
+\item Cosmologia antiga, Teologia e Filosofia.
+\begin{itemize}
+\item A criação do mundo com a fé.
+\item A organização do mundo racional.
+\end{itemize}
+\item Cosmologia enquanto ciência.
+\begin{itemize}
+\item Sistema geocêntrico.
+\item Sistema heliocêntrico.
+\item Vitória da mecânica celeste.
+\end{itemize}
+\item Cosmologia moderna.
+\begin{itemize}
+\item Novos avanços da mecânica.
+\item Universo estático de Einstein.
+\item Novas respostas para velhas questões (O Paradoxo de Olbers).
+\item O universo em expansão.
+\end{itemize}
+\item Cosmologia hoje.
+\begin{itemize}
+\item Cosmologia e Astronomia.
+\item Radiação Cósmica de Fundo (Nobel de 1978)
+\item Supernovas(Nobel de 2011)
+\item O modelo atual de Universo.
+\item Olhar para o futuro...
+\end{itemize}
+\end{itemize}
+}
+
+
+
+\subsection{Etmologia}
+\frame{\frametitle{Etmologia da palavra Cosmologia}
+\vspace{-0.5cm}
+\begin{exampleblock}{Cosmo}
+\begin{itemize}
+\item Do grego kosmos: Significa ordem ou mundo;
+\item De forma mais ampla: Cosmo pode significar \textcolor{red}{\textbf{universo}};
+\item ``tudo o que já foi, tudo o que é e tudo que será'' - Carl Sagan;
+\end{itemize}
+\end{exampleblock}
+%\pause
+\begin{alertblock}{Logia}
+\begin{itemize}
+\item Do grego logos: Significa \textcolor{red}{\textbf{estudo}}, saber, ciência.
+\item Idêntico ao zoologia (estudo dos bichos) ou biologia (estudo da vida) ou teologia (estudo da crença).
+\end{itemize}
+\end{alertblock}  
+}
+
+
+
+\section{Cosmogonia e Cosmologia}
+\subsection{Diferentes pontos de Vista}
+
+\frame{\frametitle{Cosmogonia - Criação do universo}
+\vspace{-0.5cm}
+\begin{alertblock}{Visão religiosa e artística - Mito}
+\begin{itemize}
+\item Cada religião, seita ou seja lá o que for em geral possui uma explicação para criação do universo.
+\item Realidades fantásticas (Gibis, Livros, Filmes) podem dar suas explicações para a criação do universo.
+\end{itemize}
+\end{alertblock}  
+\begin{block}{Visão científica - ``Mito''}
+\begin{itemize}
+\item Big Bang - Proposição do padre cosmólogo belga Georges Lemaître(1894-1966) - Tudo começa com uma singularidade (vamos retornar isso mais tarde).
+\item Universo tipo ricochete - Universo pulsátil. 
+\end{itemize}
+\end{block}
+%\pause
+}
+
+\subsection{Vista da Fé}
+\frame{\frametitle{Cosmogonia - Abraônica}
+\vspace{-0.5cm}
+\begin{alertblock}{Judaísmo, Cristanismo, Islamismo}
+\begin{columns}[t]
+\begin{column}{5cm}
+\includegraphics[scale=0.2]{Deus-Jeova.jpg}
+\end{column}
+\begin{column}{5cm}
+\vspace{-5.5cm}\\
+{\Large \textbf{Gênesis}}\\
+{\large \textbf{Cap 1; ver (1 a 5)}}\\
+{\small No princípio, Deus criou os céus e a terra. A terra estava informe e vazia; as trevas cobriam o abismo e o Espírito de Deus pairava sobre as águas. Deus disse: "Faça-se a luz!" E a luz foi feita. Deus viu que a luz era boa, e separou a luz das trevas. Deus chamou à luz DIA, e às trevas NOITE. Sobreveio a tarde e depois a manhã: foi o primeiro dia.}
+\end{column}
+\end{columns}
+\end{alertblock}  
+}
+
+
+\frame{\frametitle{Cosmologia - Abraônica}
+\vspace{-0.5cm}
+\begin{alertblock}{Judaísmo, Cristanismo, Islamismo}
+
+\includegraphics[scale=0.7]{OMUND1.jpg}
+
+\end{alertblock}  
+}
+
+
+\frame{\frametitle{Cosmogonia - Brahmanistas}
+\vspace{-0.5cm}
+\begin{alertblock}{Hinduismo}
+\begin{columns}[t]
+\begin{column}{5cm}
+\includegraphics[scale=0.2]{Brahma3.jpg}
+\end{column}
+\begin{column}{5cm}
+\vspace{-4.5cm}\\
+{\Large \textbf{Mito}}\\
+{\small Não existe um começo e um fim para a existência, pois existe Brahma, e ele vive 100 anos de Brahma. A cada DIA de Brahma o universo é criado e a cada NOITE de Brahma o universo é reabsorvido. Cada dia de Brahma dura $\sim\; 4$ Trilhões de anos humanos.\\
+}
+\end{column}
+\end{columns}
+\end{alertblock}  
+}
+
+\frame{\frametitle{Cosmologia - Brahmanistas}
+\vspace{-0.5cm}
+\begin{alertblock}{Hinduismo}
+
+\includegraphics[scale=0.9]{india1.jpg}
+
+\end{alertblock}  
+}
+
+\frame{\frametitle{Cosmologia - Brahmanistas}
+\vspace{-0.5cm}
+\begin{alertblock}{Hinduismo}
+
+\includegraphics[width=0.7\linewidth]{world-turtle.jpg}
+\end{alertblock}  
+}
+
+
+\subsection{Um pouco de literatura}
+\frame{\frametitle{Cosmogonia - Tolkiniana}
+\vspace{-0.5cm}
+\begin{alertblock}{Descrita no Silmarillion}
+\begin{columns}[t]
+\begin{column}{5cm}
+\includegraphics[scale=0.2]{8695bf90ce183b4b3a7ebf82763c0886.jpg}
+\end{column}
+\begin{column}{5cm}
+\vspace{-6.5cm}\\
+{\Large \textbf{História}}\\
+{\small Eru Iluvatar (Deus Supremo), pai de todas as coisas do Universo, criou os Ainur espíritos cantantes, que em um dado momento criaram Arda, a Terra que seria habitada pelos filhos de Iluvatar (Elfos e Homens). Alguns dos Ainur desceram a Arda, passaram a se chamar Valar e Maiar. \\
+}
+\end{column}
+\end{columns}
+\end{alertblock}  
+}
+
+\frame{\frametitle{Cosmologia - Tolkiniana}
+\vspace{-0.5cm}
+\begin{alertblock}{Inferida pelos textos do Contos Inacabados}
+
+\includegraphics[scale=0.7]{ardaRemade.jpg}
+
+\end{alertblock}  
+}
+
+\frame{\frametitle{Astronomia - Tolkiniana}
+\vspace{-0.5cm}
+\begin{alertblock}{Descrita no Silmarillion}
+
+\includegraphics[width=0.7\linewidth]{Tolkien_The_two_trees.jpg}
+
+\end{alertblock}  
+Criação do Sol e da Lua.
+}
+
+\frame{\frametitle{Cosmogonia - Científica atual}
+\vspace{-0.5cm}
+\begin{alertblock}{Teoria do Big Bang}
+\begin{columns}[t]
+\begin{column}{5cm}
+\includegraphics[scale=0.4]{big_bang_theory_Logo-Aunt-Heather-Piper.jpg}
+\end{column}
+\begin{column}{5cm}
+\vspace{-5cm}\\
+{\Large \textbf{A Ideia}}\\
+{\small O Universo começou de uma singularidade (aqui temos espaço para fé) muito tensa, energética e quente. E após uma grande explosão, houve um período de esfriamento e expansão rápida do espaço-tempo. Com o esfriamento, os diversos tipos de matéria puderam se formar (fótons, bárions e coisas mais esquisitas que isso...). \textcolor{red}{ Voltaremos ao Big Bang no futuro!} \\
+}
+\end{column}
+\end{columns}
+\end{alertblock}  
+}
+
+\frame{\frametitle{Cosmologia - Científica Atual}
+\vspace{-0.5cm}
+\begin{alertblock}{Universo inflacionário pós Big Bang}
+
+\includegraphics[scale=0.15]{CMB_Timeline75.jpg}
+
+\end{alertblock}  
+}
+
+\section{Racionalização}
+
+\subsection{Geocentrismo}
+
+\frame{\frametitle{Astrônomia entra em ação}
+\vspace{-0.5cm}
+\begin{exampleblock}{Surgimento do modelo Geocêntrico}
+\begin{columns}[t]
+\begin{column}{5cm}
+
+\includegraphics[scale=0.32]{UniversoAristotle.jpg}\\
+{\small Aristóteles (384-322 aC) - Note que contém os Elementos fundamentais na esfera celeste.}
+\end{column}
+\begin{column}{5cm}
+
+\includegraphics[scale=0.35]{UniversoModeloHieraclides.jpg}\\
+
+{\small Heráclides (388-315 aC) - Note que há uma correção para Mercúrio e Vênus.}
+\end{column}
+\end{columns}
+\end{exampleblock}  
+}
+
+
+
+\frame{\frametitle{A sofisticada ideia de Ptolomeu(120-180 dC)}
+\vspace{-0.5cm}
+\begin{alertblock}{Esfera celeste de Ptolomeu}
+
+\includegraphics[scale=0.5]{UniversoPtolomeu.jpg}
+
+\end{alertblock}  
+}
+
+\frame{\frametitle{A sofisticada ideia de Ptolomeu(120-180 dC)}
+\vspace{-0.5cm}
+\begin{alertblock}{Epciclos de Ptolomeu}
+
+\includegraphics[scale=0.5]{ModeloptolomaicoEpicicloMEU.jpg}
+
+\end{alertblock}  
+
+Esse esforço garantiu a explicação do movimento de Mercúrio e Vênus, além de ser capaz de gerar resultados não circulares.
+}
+
+\subsection{Heliocentrismo}
+\frame{\frametitle{O Caminho do Heliocentrismo}
+\vspace{-0.5cm}
+\begin{alertblock}{ De Aristarco (310 a.C. - 230 a.C.) até Copérnico (Nicolau Copérnico (1473 - 1543) )}
+
+\includegraphics[scale=1.2]{Heliocentric.jpg}
+
+\end{alertblock}  
+
+{\small Segundo Arquimedes, Aristarco é o primeiro a propor este modelo, apesar de não ser o único Astrônomo gredo das antigas a acreditar no Heliocentrismo. Mas quem ficou famoso com o sistema foi o Copérnico.}
+}
+
+\frame{\frametitle{Heliocentrismo explicando o universo}
+\vspace{-0.5cm}
+\begin{columns}[t]
+\begin{column}{5cm}
+\begin{alertblock}{Simplicidade a seu favor}
+\includegraphics[scale=0.42]{heliocentrismo_copernico.jpg}
+\end{alertblock}  
+\end{column}
+\begin{column}{5cm}
+\begin{alertblock}{Movimento de Retorno dos Planetas}
+\includegraphics[scale=0.2]{marte_terra_helio.jpg}
+\end{alertblock}  
+\end{column}
+\end{columns} 
+}
+
+\frame{\frametitle{Contribuição de Kepler (1571 - 1630)}
+\vspace{-0.5cm}
+
+\begin{alertblock}{Podemos ter órbitas Elípticas}
+\includegraphics[scale=0.2]{Kepler01.png}
+\end{alertblock} 
+Além é claro das outras duas leis empíricas sobre o movimento dos planetas do Sistema Solar.
+
+}
+
+\frame{\frametitle{Contribuição de Galileu (1564 - 1642)}
+\vspace{-0.5cm}
+\begin{columns}[t]
+\begin{column}{5cm}
+\begin{alertblock}{Esse é O CARA...}
+\includegraphics[scale=0.6]{650px-galileo-sustermans.jpg}\\
+{\small Galileu contribuiu fortemente para a Astronomia e para a própria metodologia científica}
+\end{alertblock}  
+\end{column}
+\begin{column}{5cm}
+\begin{alertblock}{Resultado final do processo...}
+\includegraphics[scale=0.1]{1494115.jpg}\\
+{\small Claro que isso rendeu a inimizade da Igreja Católica}
+\end{alertblock}  
+\end{column}
+\end{columns} 
+}
+
+\frame{\frametitle{Fé e Astrônomia}
+\vspace{-0.5cm}
+\begin{alertblock}{Visão de Universo descrita na Divina Comédia (1304 - 1321)}
+
+\includegraphics[scale=1.4]{DANTEDivinaComediaParadiso_gironi.jpg}
+
+\end{alertblock}  
+}
+
+\frame{\frametitle{Contribuição de Newton(1642 - 1726/7)}
+\vspace{-0.5cm}
+\begin{columns}[t]
+\begin{column}{5cm}
+\begin{alertblock}{Um grande astro...}
+\includegraphics[scale=0.32]{GodfreyKneller-IsaacNewton-1689.jpg}
+\end{alertblock}  
+\end{column}
+\begin{column}{5cm}
+\begin{alertblock}{Maior tratado científico já escrito}
+\includegraphics[scale=0.3]{Newton-Principia-Mathematica_1-500x700.jpg}
+\end{alertblock}  
+\end{column}
+\end{columns} 
+}
+
+\section{Era Moderna}
+
+\subsection{Relatividade Geral}
+
+\frame{
+\vspace{-0.25cm}
+\begin{exampleblock}{A Relatividade Geral - 1915}
+\begin{columns}[t]
+\begin{column}{2cm}
+\includegraphics[scale=0.5]{Einstein.jpg}\\
+{\footnotesize Einstein (1879-1955)}
+\end{column}
+\begin{column}{7cm}
+\includegraphics[scale=0.3]{fig11.png}\\
+{\footnotesize  Deformação do Espaço-Tempo e Lentes Gravitacionais}
+\end{column}
+\end{columns} 
+\end{exampleblock}  
+\vspace{-0.35cm}
+\begin{alertblock}{Que é uma teoria de gravitação...}
+\begin{columns}[t]
+\begin{column}{3cm}
+\vspace{-3cm}
+\includegraphics[scale=0.52]{mercure.jpg}\\
+{\footnotesize Avanço do periélio de Mercúrio.}
+\end{column}
+\begin{column}{7cm}
+\includegraphics[scale=0.35]{BHwave.jpg}\\
+{\footnotesize Desvio para o vermelho (Red Shift) gravitacional.}
+
+\end{column}
+\end{columns} 
+\end{alertblock}  
+}
+
+\frame{\frametitle{Velhas questões com novas soluções}
+\vspace{-0.5cm}
+\begin{alertblock}{Paradoxo de Olbers: A escuridão da Noite}
+
+
+\includegraphics[scale=0.23]{olbers.png}
+
+
+\end{alertblock}  
+\pause
+O céu deveria ter a luminosidade de uma estrela média!
+}
+
+
+\frame{\frametitle{Velhas questões com novas soluções}
+\vspace{-0.5cm}
+\begin{block}{Paradoxo de Olbers: A escuridão da Noite}
+
+\begin{itemize}
+\item A solução do Olbers (1758 - 1840) - Num universo estático, euclidiano, infinito e imutável, a\textbf{ Poeira interestelar absorve a luz das estrelas}. Problema depois de algum tempo, as estrelas estariam em equilíbrio térmico com as estrelas e passariam a brilhar tanto quanto elas.
+
+\item O universo não existiu por todo o sempre \textbf{(ele pode ter uma idade)} e mesmo as estrelas tem um tempo de vida finito\textbf{(sério que estrelas morrem?)}. Além disso a energia se degrada devido a expansão do universo(\textbf{como é??? Universo em expansão!!!}).
+\end{itemize}
+\end{block}  
+\pause
+
+Com as energia criativas renovadas renovadas pela RG, várias novas questões surgiram, juntamente com algumas respostas...algumas um pouco perturbadoras!
+
+
+}
+
+\subsection{cosmologia relativista}
+\frame{\frametitle{Novas perguntas a serem respondidas}
+\vspace{-0.5cm}
+\begin{block}{Qual a geometria do universo?, Qual a sua idade?, Qual o seu tamanho?}
+Equação de Einstein (para a ideia de um universo estático):
+\[
+R_{\mu\nu}-\frac{1}{2}g_{\mu\nu}\;R-\Lambda\;g_{\mu\nu}=\frac{8\;\pi\;G}{c^4} T_{\mu\nu}
+\]
+
+
+\begin{itemize}
+\item $R_{\mu\nu}$ - Tensor de curvatura Ricci (R = escalar de Ricci), algo que fala da curvatura do espaço em geometria diferencial.
+\item $g_{\mu\nu}$ - Tensor métrico, define a ideia de distâncias em geometria diferencial(com ele definimos o produto interno por exemplo);
+\item $T_{\mu\nu}$ - Tensor momento energia, diz qual o conteúdo material contido no espaço tempo.
+\item $\Lambda$ - Constante cosmológica (aqui com interpretação geométrica);
+\end{itemize}
+\end{block}  
+}
+
+\frame{\frametitle{Novas perguntas a serem respondidas}
+\vspace{-0.5cm}
+\begin{block}{Universo estático de Einstein - 1917}
+Solução de Einstein (para a ideia de um universo estático, homogêneo e isotrópico):
+\[
+\left( \frac{da}{dt}\right)^2-\left( \frac{8\;\pi\;G}{3}\rho +\frac{1}{3}\Lambda\;c^2 \right) R = - K_0\;c^2
+\]
+
+\begin{itemize}
+\item $R$ - Fator de escala;
+\item $\rho$ - Densidade total de matéria e energia.
+\item $K_0$ - Constante de curvatura, +(universo fechado), -(universo aberto e curvo), 0 (aberto e plano).
+\item $\Lambda$ - Constante cosmológica permite que o universo seja estático.
+\end{itemize}
+\end{block}
+{\footnotesize Uma exploração longa sobre isso está acessível em:
+Soares D. - O universo estático de Einstein - Revista Brasileira de Ensino de Física - 2012  }
+}
+
+
+\subsection{Universo em expansão}
+\frame{\frametitle{Avanços na Astronomia}
+\vspace{-0.5cm}
+\begin{block}{Expansão do Universo -Edwin Hubble - 1929}
+\includegraphics[scale=0.53]{hubble.jpg}
+\end{block}
+\begin{alertblock}{Lei de Hubble}
+Hoje.
+\[
+v_r=H_0\;r
+\]
+\end{alertblock}
+}
+
+\frame{\frametitle{Avanços na Astronomia - Lei de Hubble}
+\vspace{-0.5cm}
+\begin{block}{Expansão do Universo - Visão Ilustrativa}
+\includegraphics[scale=0.53]{Universe_expansion2.png}
+\end{block}
+
+
+}
+
+
+\frame{\frametitle{Avanços na Física Teórica}
+\vspace{-0.5cm}
+\begin{block}{Métrica de Friedmann-Lemaître-Robertson-Walker - 1922}
+{\footnotesize Solução da Equação de Einstein mais aceita para cosmologia hoje passa por essa métrica, proposta independentemente por esses caras. Ela gera um universo em expansão naturalmente.}
+\[
+ds^2=-dt^2+a(t)^2\left(\frac{1}{1-k\;r^2}dr^2+r^2\;d\theta^2 + r^2\;sen^2(\theta)d\phi^2 \right) 
+\]
+\end{block}
+\begin{alertblock}{Lei de Hubble Reescrita}
+Com dependência temporal.
+\[
+H(t)=\frac{\dot{a}(t)}{a(t)}
+\]
+\end{alertblock}
+}
+
+\frame{\frametitle{Avanços na Física Teórica}
+\vspace{-0.5cm}
+\begin{block}{Equações de Friedmann}
+\[
+\left( \frac{\dot{a}}{a}\right)^2 =  \frac{8\;\pi\;G}{3}\rho -K\;\frac{c^2}{a^2}\quad e \quad 3\frac{\ddot{a}}{a}=-4\;\pi\;G\left(\rho+3\frac{P}{c^2} \right) 
+\]
+\end{block}
+\begin{alertblock}{Uma crítica ao modelo}
+Seria de fato o universo em larga escala homogêneo e isotrópico.
+\pause
+As medições atuais indicam que sim, mas na época de Fiedmann, a coisa era crença mesmo.\\
+Chamamos essa hipótese de princípio cosmológico, que trata com isonomia todos os observadores em todas as partes do universo.
+\end{alertblock}
+}
+
+\frame{\frametitle{Conteúdo material do universo}
+\vspace{-0.5cm}
+\begin{block}{Fluidos que compõe o universo}
+\begin{itemize}
+\item Bárions (matéria ordinária que se agrega); 
+\item Fótons (energia luminosa que não se agrega, mas pode sofrer influência gravitacional).
+\item Neutrinos (leptons exotéricos, supostamente não massivos).
+\item Outras coisas que podem perturbar seu sono.
+\end{itemize}
+\end{block}
+}
+
+\subsection{Conteúdo exótico do universo}
+\frame{\frametitle{Evidências da Matéria Escura}
+\vspace{-0.5cm}
+\begin{block}{Curva de rotação de galáxias}
+\includegraphics[scale=0.5]{curva_rotacao.png}
+\end{block}
+}
+
+\frame{\frametitle{Evidências da Matéria Escura}
+\vspace{-0.5cm}
+
+\begin{block}{Lentes Gravitacionais}
+
+\includegraphics[scale=0.27]{lentes.png}
+
+\end{block}
+}
+
+\frame{\frametitle{Evidências da Matéria Escura}
+\vspace{-0.5cm}
+
+\begin{block}{Aglomerado da Bala}
+
+\includegraphics[scale=1]{bullet-cluster-black-matter.jpg}
+
+\end{block}
+}
+
+\frame{\frametitle{Evidências da Energia Escura}
+\vspace{-0.5cm}
+
+\begin{block}{Expansão acelerada do universo - 1998 - Observação de Supernovas}
+\includegraphics[scale=1]{space-photography-166.jpg}
+\end{block}
+{\footnotesize Voltaremos a isso mais tarde! Por hora só temos que saber que precisamos de uma espécie de repulsão gravitacional, um candidato é a Energia Escura.}
+}
+
+\frame{\frametitle{Evidências da Energia Escura}
+\vspace{-0.5cm}
+
+\begin{block}{Idade do Universo}
+\begin{itemize}
+\item A idade do universo pode ser calculada mediante o parâmetro de Hubble (H(t)) comentado anteriormente.
+\item O valor teórico previsto para o H(t) depende do conteúdo material do universo.
+\item Sem um fator repulsivo, o universo seria mais jovem que alguns objetos celestes medidos nos últimos anos. 
+\item Novamente a esse candidato chamamos de Energia escura.
+\end{itemize}
+\end{block}
+}
+
+
+\frame{\frametitle{Panorama Geral}
+\vspace{-0.5cm}
+
+\begin{alertblock}{Modelos de Universo - Mais simples - $LCDM$ plano}
+\begin{center}
+\includegraphics[scale=0.6]{Dark_Matter_vs_atoms_stuff.jpg}
+\end{center}
+\end{alertblock}
+}
+
+\section{Que temos hoje?}
+
+\subsection{linhas gerais}
+\frame{\frametitle{Zoológico de Propostas}
+\vspace{-0.5cm}
+
+\begin{block}{Alguns modelos Cosmológicos}
+\begin{itemize}
+\item Quintessencia (Constante Cosmológica está aqui).
+\item Gás de Chaplygin (unifica matéria e energia escura).
+\item Modelos com variação temporal de parâmetros.
+\item Vai da criatividade do pesquisador...
+\end{itemize}
+\end{block}
+\pause
+\begin{alertblock}{Ideias ainda mais ousadas}
+\begin{itemize}
+\item Mudança da Métrica do Universo (tem até métrica GEOCENTRICA).
+\item Alterações na geometria da equação de Einstein.
+\item Mudança de teoria (alternativa a Relatividade Geral).
+\end{itemize}
+\end{alertblock}
+}
+
+\frame{\frametitle{Quem julga as propostas...}
+\vspace{-0.5cm}
+
+\begin{block}{Observáveis Astronômicos}
+\begin{itemize}
+\item<1-2> Radiação Cósmica de Fundo (inglês CMB).
+\item<1-2> Curva de Luz das Supernovas do tipo Ia (SN Ia)
+\item<1> Fração de Bárions em Aglomerados de Galáxias.
+\item<1> Lentes Gravitacionais (fracas e fortes).
+\item<1> Oscilações Acústicas de Bárions (inglês BAO).
+\item<1> Contagem de Aglomerados de Galáxias (vulgo Clusters ou number count).
+\item<1> Deve ter mais...só falta tempo, o que não falta é trabalho!
+\end{itemize}
+\end{block}
+}
+
+\subsection{CMB}
+
+\frame{\frametitle{Radiação Cósmica de Fundo}
+\vspace{-0.5cm}
+\begin{block}{Linha do tempo}
+Radiação que permeia todo o espaço de forma homogênea, seu valor é no máximo na faixa do micro-ondas e é uma radiação do tipo de corpo negro.
+\begin{itemize}
+\item<1> Predita por Gamow e outros em 1948.
+\item<2> Medida acidentalmente por Perzias e Wilson em 1965.
+\item<3> Nobel de Física para Perzias e Wilson em 1978.
+\item<4> Cosmic Background Explorer (COBE ou Explorador do Fundo Cósmico) - Satélite lançado em 1989, suas medidas ocorreram até 1993.
+\item<5> Lançamento de outros projetos, o principal foi o WMAP em 2003.
+\item<6> Nobel de Física dado aos líderes do projeto COBE 2006.
+\end{itemize}
+\end{block}
+}
+
+\frame{\frametitle{Radiação Cósmica de Fundo}
+\vspace{-0.5cm}
+\begin{block}{COBE vs WMAP}
+\begin{center}
+\includegraphics[scale=0.75]{cobe_vs_wmap.jpeg}
+\end{center}
+\end{block}
+}
+
+
+
+\frame{\frametitle{Radiação Cósmica de Fundo}
+\vspace{-0.5cm}
+\begin{block}{Principais contribuições desta medida}
+\begin{itemize}
+\item Contribuição para a confirmação de que o universo é Isotrópico.
+\item Quanto a geometria da seção espacial do universo (curvatura).
+\item A matéria como conhecemos não existiu desde sempre.
+\item Melhores estimativas sobre a idade do universo.
+\item Dá mais indícios sobre o Big Bang.
+\end{itemize}
+\end{block}
+\pause
+\begin{alertblock}{Onde o bicho pega...}
+\begin{itemize}
+\item Todos perceberam que essa radiação vem de muito longe no passado, quanto mais longe no passado, mas suposições fazemos.
+\end{itemize}
+\end{alertblock}
+}
+
+
+\subsection{supernova}
+
+\frame{\frametitle{O que são as SN Ia}
+\begin{exampleblock}{O que é uma Supernova?}
+\begin{enumerate}
+\item<1-1> A supernova é um dos possíveis estágios finais de uma estrela.
+\item<1-2> {\footnotesize Ela surge se a estrela tiver \textbf{(ou receber)} massa suficiente para que as forças de atração gravitacional provoquem uma explosão advinda da fusão nuclear dos seus componentes.}
+\item<2-2> Não exite total compreensão sobre os mecanismos de explosão, quais estrelas participam da explosão ou mesmo quais as características das galáxias hospedeiras.
+\end{enumerate}
+\end{exampleblock} 
+\footnotesize{ Para uma revisão sobre os mecanismos de explosão e o problema dos progenitores veja Livio 1999\footnote{\scriptsize Livio, M., 1999. The Progenitors of Type Ia Supernovae. astro-ph/9903264.}}.
+}
+%Falar muito brevemente dos problemas que envolvem os mecanismos das SN. SN II , Ib e Ic tipicamente são do tipo CORE-COllapse e SN Ia é do tipo binário com doação de massa.
+% 
+% Exemplo 1 - Marge de duas anãs brancas e doação de uma gigante vermelha.
+% Exemplo 2 - Supernovas SubMAssivas e SuperMassimvas
+% Exemplo 3 - 
+%
+
+\frame{\frametitle{O que são as SN Ia}
+\begin{exampleblock}{Tipificação de Supernovas.}
+\begin{figure}[H]
+\begin{center}
+\xymatrix{& & \txt{Hidrogênio} \ar@{->}[rd]^{\txt{\scriptsize Sim}} \ar@{->}[ld]_{\txt{\scriptsize Não}}&   &\\
+& \txt{Silício} \ar@{->}[ld]_{\txt{\scriptsize Não}} \ar@{->}[rd]^{\txt{\scriptsize Sim}}&  &  \txt{Tipo II} \\
+\txt{Hélio}\ar@{->}[d]_{\txt{\scriptsize Não}} \ar@{->}[rd]^{\txt{\scriptsize Sim}}& & *+[F-]\txt{Tipo Ia} &  \\
+\txt{Tipo Ic}& \txt{Tipo Ib} &  &   \\
+}
+\end{center}
+\end{figure}
+\end{exampleblock} 
+%Essa tipificação é feita fazendo o follow up espectroscópico das SN.
+%As SN Ia, possuem características que as tornam velas padronizáveis. 
+\footnotesize{ Diagrama feito segundo os estudos contidos em Filippenko 1997\footnote{{\scriptsize Filippenko, A. V., 1997. Optical Spectra of Supernovae. ARA\& A35, 309-355.}}
+}
+}
+% Aqui tentar explicar essas características, essencialmente diz respeito a correlação entre o luminosidade e a forma da curva de luz da SN.
+
+
+\frame[shrink]{\frametitle{\small Usando supernovas do tipo Ia em cosmologia - Padronização}
+\vspace{-0.6cm}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.60]{ajustador_stretch_factor.jpg} 
+%Creditos Source: http://www-supernova.lbl.gov/public/figures/stretch_hamuy.gif.
+%Credit: S. Perlmutter
+\caption{{\tiny Lado esquerdo curvas de luz para diferentes supernovas, no lado direito temos o resultado da padronização. Credito da figura: S. Perlmutter, disponível no sítio $http://www-supernova.lbl.gov/public/figures/stretch\_hamuy.gif$}}
+\end{center}
+\end{figure}
+\vspace{-0.25cm}
+\begin{footnotesize}
+\xymatrix{\txt{$\Delta m_{15}$\\$Phillips\;1993^{a}$}& \txt{Stretch\\$Goldhaber\; 2001^{b}$} & *+[F-]\txt{MLCS2k2\\$Jha\;2006^{c}$}  & *+[F-]\txt{SALT2\\$Guy\;2007^{d}$}\\
+ \txt{CMAGIC\\$Wang\;2003^{e}$} & \txt{SNooPY\\$Burns\;2010^{f}$} & \txt{SiFTO\\$Conley\;2008
+ ^{g}$} & \txt{BayeSN\\$Mandel\;2010^{h}$}
+}
+\end{footnotesize}
+}
+
+\frame{\frametitle{Supernovas do Tipo Ia}
+\vspace{-0.5cm}
+
+\begin{block}{Principais contribuições desta observação}
+{\footnotesize \begin{itemize}
+\item Predisse que o universo se expande aceleradamente (Novel de 2011 por isso).
+\item Complementa as estimativas de CMB (e outros observável).
+\end{itemize}}
+\end{block}
+\pause
+\vspace{-0.2cm}
+\begin{alertblock}{Onde o bicho pega...}
+
+{\footnotesize Decididamente precisamos entender melhor os processos que envolvem uma supernova do tipo Ia.}\\
+\vspace{-0.2cm}
+\begin{center}
+\includegraphics[scale=0.17]{comb_qf-1.jpg}
+\end{center}
+
+\end{alertblock}
+}
+
+
+
+\subsection{Finalmente}
+
+\frame{\frametitle{Visão do Nosso Universo Hoje}
+\vspace{-0.5cm}
+\begin{alertblock}{Universo inflacionário pós Big Bang}
+
+\includegraphics[scale=0.15]{CMB_Timeline75.jpg}
+
+\end{alertblock}  
+}
+
+\frame{\frametitle{Visão do Nosso Universo Hoje}
+\vspace{-0.5cm}
+
+
+\includegraphics[scale=0.25]{universo_paradigma.png}
+
+}
+
+
+\frame{\titlepage \begin{center}
+{\LARGE OBRIGADO!}
+\end{center}}
+
+\end{document}
+Bibliografia:
+Domingos Soares - O universo estático de Einstein - Revista Brasileira de Ensino de Física - 2012
+
+Para mais explicações didáticas ver, Charles H. Lineweaver and Tamara M. Davis
